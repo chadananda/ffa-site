@@ -1,0 +1,28 @@
+{
+  "name": "ffa-site",
+  "version": "1.0.0",
+  "description": "FFA Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git-directory-deploy --directory /static/html/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadananda/ffa-site.git"
+  },
+  "keywords": [
+    "wholereader",
+    "literary",
+    "reading"
+  ],
+  "author": "Chad Jones <chadananda@gmail.com> (http://notepad.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chadananda/ffa-site/issues"
+  },
+  "homepage": "https://github.com/chadananda/ffa-site#readme",
+  "devDependencies": {
+    "git-directory-deploy": "^1.5.1"
+  }
+}
