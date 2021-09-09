@@ -1,6 +1,6 @@
 {
   "name": "ffa-site",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "FFA Website",
   "main": "index.js",
   "scripts": {
