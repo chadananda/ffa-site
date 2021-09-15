@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
   font-weight: 300;
 }
 p {
@@ -104,7 +104,7 @@ a.btn-cta,
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #6091ba;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
 }
 a.btn-cta:hover,
 .btn-cta:hover {
@@ -148,19 +148,19 @@ blockquote p {
   background-color: #df622a;
 }
 .FireBush {
-  background-color: #E28D40;
+  background-color: #e28d40;
 }
 .FireBush:hover {
   background-color: #df802a;
 }
 .OliveDrab {
-  background-color: #60A823;
+  background-color: #60a823;
 }
 .OliveDrab:hover {
   background-color: #54931f;
 }
 .Mojo {
-  background-color: #C94139;
+  background-color: #c94139;
 }
 .Mojo:hover {
   background-color: #b73932;
@@ -257,7 +257,7 @@ ul.custom-list-style li {
   display: block;
   padding-top: 5px;
   font-size: 15px;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
   font-weight: 500;
 }
 .pagination > .active > a,
@@ -558,7 +558,7 @@ ul.custom-list-style li {
   font-weight: 500;
   color: #fff;
   position: relative;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
 }
 .promo-badge .percentage .off {
   font-size: 11px;
@@ -697,7 +697,7 @@ ul.custom-list-style li {
   list-style: none;
   float: left;
   font-size: 11px;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
 }
 .header .menu-top li:last-child a {
   padding-right: 0;
@@ -715,7 +715,7 @@ ul.custom-list-style li {
 }
 .header .contact {
   font-size: 20px;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
   font-weight: 300;
   margin-top: 10px;
 }
@@ -786,7 +786,7 @@ ul.custom-list-style li {
 .main-nav .nav .nav-item {
   font-weight: 600;
   text-transform: uppercase;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
   z-index: 100;
 }
 .main-nav .nav .nav-item.dropdown {
@@ -1010,7 +1010,7 @@ ul.custom-list-style li {
   bottom: 30px;
   color: #fff;
   display: inline-block;
-  font-family: 'open sans', arial, sans-serif;
+  font-family: "open sans", arial, sans-serif;
 }
 .flexslider .slides .flex-caption .main {
   display: inline-block;
@@ -1329,15 +1329,30 @@ ul.custom-list-style li {
   margin-right: 0;
   font-size: 15px;
 }
-.page-wrapper .page-sidebar .testimonials-carousel .carousel-controls a.next .fa {
+.page-wrapper
+  .page-sidebar
+  .testimonials-carousel
+  .carousel-controls
+  a.next
+  .fa {
   padding-top: 2px;
   padding-right: 1px;
 }
-.page-wrapper .page-sidebar .testimonials-carousel .carousel-controls a.prev .fa {
+.page-wrapper
+  .page-sidebar
+  .testimonials-carousel
+  .carousel-controls
+  a.prev
+  .fa {
   padding-top: 2px;
   padding-right: 1px;
 }
-.page-wrapper .page-sidebar .testimonials-carousel .carousel-controls a:hover .fa {
+.page-wrapper
+  .page-sidebar
+  .testimonials-carousel
+  .carousel-controls
+  a:hover
+  .fa {
   background: #6091ba;
 }
 /* ======= Configure Style ======= */
@@ -1518,7 +1533,7 @@ ul.custom-list-style li {
 .home-page .promo .btn-cta {
   font-size: 20px;
   margin-top: 30px;
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: "Open Sans", arial, sans-serif;
 }
 .home-page .news {
   position: relative;
@@ -1752,6 +1767,24 @@ ul.custom-list-style li {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
+
+/* .flexslider:hover .flex-next {
+  opacity: 0.8;
+  right: 5px;
+}
+.flexslider:hover .flex-prev {
+  opacity: 0.8;
+  left: 5px;
+} */
+
+.flexslider .flex-direction-nav {
+  pointer-events: none;
+}
+
+.flexslider:hover .flex-direction-nav {
+  pointer-events: auto;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .wrapper {
@@ -1830,10 +1863,24 @@ ul.custom-list-style li {
   .main-nav .nav .nav-item .dropdown-submenu .dropdown-menu a:hover {
     padding-left: 34px;
   }
-  .main-nav .nav .nav-item .dropdown-submenu .dropdown-menu .dropdown-submenu .dropdown-menu a {
+  .main-nav
+    .nav
+    .nav-item
+    .dropdown-submenu
+    .dropdown-menu
+    .dropdown-submenu
+    .dropdown-menu
+    a {
     padding-left: 45px;
   }
-  .main-nav .nav .nav-item .dropdown-submenu .dropdown-menu .dropdown-submenu .dropdown-menu a:hover {
+  .main-nav
+    .nav
+    .nav-item
+    .dropdown-submenu
+    .dropdown-menu
+    .dropdown-submenu
+    .dropdown-menu
+    a:hover {
     padding-left: 49px;
   }
   .flexslider {
