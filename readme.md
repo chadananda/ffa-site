@@ -1,4 +1,4 @@
-# Firm-foundation.org Website:
+# Firm-foundation.org Website
 ### https://firm-foundation.org
 
 At present this is an old static site published to a `gh-pages` branch on Github.
@@ -13,7 +13,7 @@ In order to make it easy to replace this site with a modern Vue/Nuxt or SvelteKi
 
 This script pushes the `/static/html` folder to the `gh-pages` branch on Github, updating the public website.
 
-The first time you do this you will, first need to install the npm script with `npm i`
+The first time you do this, you will first need to install the npm script with `npm i`
 
 
 
