@@ -1785,6 +1785,11 @@ ul.custom-list-style li {
   pointer-events: auto;
 }
 
+.pp_social .facebook {
+  width: auto;
+  max-width: 75px;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .wrapper {
