@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git-directory-deploy --directory static/html/"
+    "deploy": "git-directory-deploy --directory static/html/",
+    "deploy-win": "git-directory-deploy --directory .\\static\\html\\"
   },
   "repository": {
     "type": "git",
