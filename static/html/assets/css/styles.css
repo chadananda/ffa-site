@@ -959,6 +959,7 @@ ul.custom-list-style li {
 }
 .footer .bottom-bar .social {
   margin: 0;
+  display: none;
 }
 .footer .bottom-bar .social li {
   float: right;
