@@ -28,6 +28,7 @@ body {
 }
 .footer {
   height: 344px;
+  flex-shrink: 0;
   /* must be the same height as footer */
 }
 h1,
@@ -959,6 +960,7 @@ ul.custom-list-style li {
 }
 .footer .bottom-bar .social {
   margin: 0;
+  display: none;
 }
 .footer .bottom-bar .social li {
   float: right;
@@ -1472,6 +1474,10 @@ ul.custom-list-style li {
   z-index: 100;
 }
 /* ======= Home Page ======= */
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
 .home-page h1.section-heading {
   font-size: 18px;
   font-weight: 300;
@@ -1695,6 +1701,14 @@ ul.custom-list-style li {
 .home-page .awards .carousel-control:hover .fa {
   color: #999;
 }
+
+.wrapper {
+  flex-grow: 1;
+}
+
+.container {
+  overflow: hidden;
+}
 /* ======= Courses Page ======= */
 .courses-wrapper .tab-content {
   font-size: 12px;
@@ -1767,15 +1781,6 @@ ul.custom-list-style li {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-
-/* .flexslider:hover .flex-next {
-  opacity: 0.8;
-  right: 5px;
-}
-.flexslider:hover .flex-prev {
-  opacity: 0.8;
-  left: 5px;
-} */
 
 .flexslider .flex-direction-nav {
   pointer-events: none;
@@ -2018,6 +2023,17 @@ ul.custom-list-style li {
     min-height: 360px;
   }
 }
+
+@media (min-width: 861px) {
+  .flexslider .flex-next {
+    right: -18px;
+  }
+
+  .flexslider .flex-prev {
+    left: -18px;
+  }
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .home-page .testimonials .carousel .item {
@@ -2045,17 +2061,6 @@ ul.custom-list-style li {
   }
   body {
     font-size: 13px;
-  }
-  .wrapper {
-    min-height: 100%;
-    margin-bottom: -344px;
-    /* equal to footer height */
-  }
-  .wrapper:after {
-    content: "";
-    display: block;
-    height: 344px;
-    /* must be the same height as footer */
   }
   .footer {
     height: 344px;
