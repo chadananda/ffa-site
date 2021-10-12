@@ -763,6 +763,11 @@ ul.custom-list-style li {
   background: #6091ba;
   margin-bottom: 30px;
 }
+
+.main-nav .container {
+  overflow: visible;
+}
+
 .main-nav button {
   background: #27435a;
   color: #fff !important;
