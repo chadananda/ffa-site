@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const isPast24Hours = (timestamp) => {
-    // const twentyFourHours = 24 * 60 * 60 * 1000;
-    const twentyFourHours = 4000;
+    const twentyFourHours = 24 * 60 * 60 * 1000;
     return Date.now() - timestamp >= twentyFourHours;
   };
 
